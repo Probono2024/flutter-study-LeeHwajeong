@@ -4,7 +4,7 @@ void main() {
   runApp(const MyApp()); //앱 시작 = runApp
 }
 
-class MyApp extends StatelessWidget { //기본 셋팅
+class MyApp extends StatelessWidget { //기본 셋팅, 필수적
   const MyApp({super.key});
   @override
   Widget build(BuildContext context) {
