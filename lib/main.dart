@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget { //기본 셋팅 문법
   Widget build(BuildContext context) {
 
     return MaterialApp(
-      home: Image.asset('love.jpg')
+      home: Text('기본 위젯')
     );
   }
 }
